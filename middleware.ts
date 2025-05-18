@@ -27,6 +27,7 @@ const aj = arcjet({
 
 export default async function middleware(request: NextRequest) {
   const decision = await aj.protect(request);
+  console.log("Arcjet decision:", decision);
 
   // Bots not in the allow list will be blocked
   if (decision.isDenied()) {
