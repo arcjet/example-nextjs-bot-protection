@@ -22,5 +22,6 @@ updates:
           - arcjet
           - "@arcjet/*"
     ignore:
-      - dependency-name: eslint
-        versions: [">=9"]
+      # Synced with engines field in package.json
+      - dependency-name: "@types/node"
+        versions: [">=21"]
