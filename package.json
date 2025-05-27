@@ -43,8 +43,8 @@
     "styled-components": "6.1.18"
   },
   "devDependencies": {
-    "@types/node": "20.17.50",
-    "@types/react": "19.1.5",
+    "@types/node": "20.17.51",
+    "@types/react": "19.1.6",
     "@types/react-dom": "19.1.5",
     "postcss": "8.5.3",
     "sass": "1.89.0",
